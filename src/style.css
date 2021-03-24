@@ -1,0 +1,406 @@
+a.right {
+    float: right;
+    background-color: white;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: medium;
+    padding: 2.5% 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 4px;
+    background: rgba(155, 155, 155, 0.5);
+}
+a.right:hover{
+    background: rgba(231, 231, 231, 0.5);
+}
+div.menu {
+    position: relative;
+    width: 100%;
+    height: 610px;
+    z-index: 1;
+}
+.logo img{
+	width: 150px;
+	float: left;
+	height:auto;
+}
+
+.Slides {
+    display:none;
+}
+img.Slides{
+    position: absolute;
+    width: 100%;
+    height: 610px;
+}
+div.slideshow {
+    width: 100%;
+    z-index: 0;
+}
+
+.welcome-text{
+	position:absolute;
+	margin:0% 30%;
+	width: 600px;
+	height:300px;
+	text-align:center;
+}
+.welcome-text h1{
+	text-align:center;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:150px;
+
+	font-family:courier;
+	font-weight:400;
+}
+.welcome-text h4{
+	text-align:center;
+	color:#fff;
+	font-size:30px;
+	font-family:courier;
+	font-weight:400;
+	margin:0%10%;
+}
+div.paragraph{
+    text-align: center;
+    border: 2px;
+    width: 100%;
+    font-family: "Calibri";
+}
+.search-box-wrapper{
+display:inline-flex;
+font-size:20px;
+right:0px;
+position:relative;
+margin-left:15px;
+margin-right:10px;
+margin-top:5px;
+}
+ .sreach-box-input{
+	 font-size:inherit;
+	 border:0.2em solid #7e7;
+	 border-radius:0.5em 0 0 0.5em;
+	 padding:0.2em 0.5em;
+ } 
+
+.search-box-button{
+	font-size:inherit;
+	border:0.2em solid rgb(150,150,150);
+	background-color:rgb(150,150,150);
+	border-left:0;
+	padding:0 0.75em;
+	color:#white;
+	font-weight:bold;
+	outline:0;
+	cursor:pointer;
+}
+.search-box-input:hover,
+ .search-box-input:focus{
+	  background-color:rgb(255,255,255);
+ }
+.steps{
+			font-size:30px;
+			color:black;
+			}
+#data{
+			font-size:15px;
+			color:black;
+			}
+}
+body{
+	margin:0;
+	padding:0;
+	text-align:center;
+	background-size:cover;
+	font-family:sans-serif;
+	font-weight:300;
+}
+.title{
+	margin-top:100px;
+	color:#1E1A1A;
+	margin:20px 30px;
+}
+.title h4{
+	font-size:20px;
+}
+.title2{
+	margin-top:20PX;
+	color:#1E1A1A;
+	margin:20px 30px;
+}
+.title2 h4{
+	font-size:20px;
+}
+.text h5{
+	color:#1E1A1A;
+}
+.text h3{
+	color:#1E1A1A;
+	font-size:30px;
+}
+.text h2{
+	color:#1E1A1A;
+	font-size:20px;
+}
+.text h4{
+	color:#1E1A1A;
+	font-size:10px;
+}
+form{
+	margin-top:50px;
+}
+
+.form-control{
+	width:600px;
+	background:transparent;
+	border:none;
+	outline:none;
+	border-bottom:1px solid gray;
+	color:#fff;
+	font-size:18px;
+	margin-bottom:16px;
+	
+}
+input{
+	height:45px;
+	
+}
+
+form .submit{
+	background-color:#3EAA9C;
+	border-color:transparent;
+	color:#fff;
+	font-size:20px;
+	letter-spacing:2px;
+	height:50px;
+	margin-top:20px;
+	transition:0.4s ease;
+	
+}
+form .submit:hover{
+	background-color:#f4433;
+	cursor:pointer;
+}
+#footer {
+	text-align = center;
+	background:#001B3A;
+	padding:0 0 30px 0;
+	color:#eee;
+	font-size:14px;
+}
+#footer .footer-top{
+	background:#000000;
+	padding:60px 0 20px 0;
+}
+#footer .footer-top.footer-info{
+	margin-bottom:30px;
+}
+#footer .footer-top .footer-info h3{
+	font-size:34px;
+	margin:0 0 20px 0;
+	padding:2px 0 2px 0;
+	line-height:1;
+	font-family:"montserrat",sans-serif;
+	color:#fff;
+	font-weight:400;
+	letter-spacing:3px;
+	text-transform:uppercase;
+}
+#footer .footer-top .footer-social-link a{
+	font-size: 18px;
+	display:inline-block;
+	background: #007bff;
+	color: #fff;
+	line-height:1;
+	padding:8px 0;
+	margin-right:4px;
+	border-radius: 50x;
+	text-align:center;
+	width:36px;
+	height:36px;
+	transition:0.3s;
+}
+#footer .footer-top .footer-social-links a:hover {
+	background:#0067d5;
+	color:#fff;
+}
+.footerlogo1{
+	float: right;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:10px;
+}
+.footerlogo2{
+	float: right;
+	margin-right:5px;
+	margin-bottom:10px;
+	margin-top:-28px;
+}
+#footer .footer-top h4{
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	text-transform:uppercase;
+	position:relative;
+	padding-bottom:10px;
+}
+#footer .footer-top.footer-links {
+	margin-bottom:30px;
+}
+#footer .footer-top .footer-links ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+#footer .footer-top .footer-links ul li{
+	padding:8px 0;
+}
+#footer .footer-top .footer-links ul li:first-child {
+	padding-top:0;
+}
+#footer .footer-top .footer-links ul a {
+	color: #ecf5ff;
+}
+#footer .footer-top .footer-links ul a:hover {
+	color: #74b5fc;
+}
+#footer .footer-top .footer-contact {
+	margin-bottom:30px;
+}
+#footer .footer-top .footer-contact p {
+	line-height:26px;
+}
+#footer .footer-top .footer-newsletter {
+	margin-bottom:30px;
+}
+	
+#footer .footer-top .footer-newsletter input[type="email"] {
+	border:0;
+	padding:6px 8px;
+	width:65%;
+}
+
+#footer .footer-top ,footer-newsletter input[type="submit"]{
+	background:#007bff;
+	border:0;
+	width: 35%;
+	padding:6px 0;
+	text-align:center;
+	color:#fff;
+	transition:0.3s;
+	cursor:pointer;
+}
+#footer .footer-top ,footer-newsletter input[type="submit"]:hover{
+	background:#000000;
+}
+#footer .copyright{
+	text-aling:center;
+	padding-top:15px;
+}
+#footer .credits{
+	text-align:center;
+	font-size:13px;
+	color:#flf7ff;
+}
+#footer.credits a{
+	color:#bfddfe;
+}
+#footer .credits a:hover{
+	color:#flf7ff;
+}
+.register {
+	max-width: 800px;
+	padding: 10px 20px;
+	margin: 20px auto;
+	padding: 20px;
+	background:#EFCCCC85;
+	border-radius: 8px;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+.login{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	position: relative;
+	max-width: 360px;
+	margin:0 auto 10px;
+	padding:45px;
+	color: #1E1A1A;
+}
+.loginbutton{
+    background-color: #3EAA9C;
+    color: #1E1A1A;
+    padding: 8px;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+	text-decoration: none;
+}
+
+
+
+
+.payment {
+	max-width: 800px;
+	padding: 3px 10px 13px 18px;
+	margin: 20px auto;
+	padding: 20px;
+	background: #EFCCCC85;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+    
+}
+.btn{
+    background-color: #3EAA9C;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+input[type=text] {
+    width 100%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    boder-radius: 3px;
+}
+.eml{
+    width 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    boder-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
